@@ -13,10 +13,13 @@ Please make sure that you have installed the following libraries:
 
 # Screenshots
 The main window of the game.  
+  
 ![alt text](https://github.com/amosyu2000/TwentyFourGame/blob/master/screenshots/main.JPG)
 
 Clicking "Settings" allows the player to customize aspects of the game.  
+  
 ![alt text](https://github.com/amosyu2000/TwentyFourGame/blob/master/screenshots/settings.JPG)
 
-Players type their answer into the text box and the game checks if they are right.
+Players type their answer into the text box and the game checks if they are right.  
+  
 ![alt text](https://github.com/amosyu2000/TwentyFourGame/blob/master/screenshots/gameplay.JPG)
