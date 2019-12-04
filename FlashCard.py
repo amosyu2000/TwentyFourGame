@@ -1,5 +1,5 @@
 '''
-The FlashCard class creates cards.
+The FlashCard class creates card graphics and functionality.
 
 Created on Feb 23, 2019
 @author: amosyu2000
@@ -15,16 +15,16 @@ class FlashCard:
     project_path = os.path.abspath(os.path.dirname(__file__))
     os.chdir(project_path)
 
-    skinList = os.listdir("CardSkins")[0:10]
+    skinList = os.listdir("res/cardskins")[0:10]
     
     skinValueList = []
     for file in skinList:
         skinValueList.append(int(file[:2]))
     
     def createSkin(self, image):
-        colourImage = Image.open("CardSkins/"+image)
-        greyImage = Image.open("CardSkins/"+image)
-        greyMask = Image.open("CardSkins/greyMask.png")
+        colourImage = Image.open("res/cardskins/"+image)
+        greyImage = Image.open("res/cardskins/"+image)
+        greyMask = Image.open("res/cardskins/greyMask.png")
         greyImage.paste(greyMask, mask=greyMask)
         
         return ImageTk.PhotoImage(colourImage), ImageTk.PhotoImage(greyImage)

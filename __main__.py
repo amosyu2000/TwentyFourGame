@@ -1,3 +1,10 @@
+'''
+
+Created on Feb 23, 2019
+@author: amosyu2000
+
+'''
+
 from tkinter import Tk
 from twentyfour_game import TwentyFourGame
 
