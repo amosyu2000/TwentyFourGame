@@ -1,5 +1,5 @@
 from tkinter import Tk
-from Main import TwentyFourGame
+from twentyfour_game import TwentyFourGame
 
 if __name__ == '__main__':
 	root = Tk()

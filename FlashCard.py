@@ -12,7 +12,9 @@ from PIL import ImageTk, Image
 import os
 
 class FlashCard:
-    
+    project_path = os.path.abspath(os.path.dirname(__file__))
+    os.chdir(project_path)
+
     skinList = os.listdir("CardSkins")[0:10]
     
     skinValueList = []
